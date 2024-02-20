@@ -1,0 +1,24 @@
+# flutter_web_example
+
+How to deploy a Flutter web app on GITHUB PAGES
+
+## Deploying
+
+flutter clean
+flutter pub get
+
+( Add your repository name between / / and run )
+
+flutter build web --base-href /your-repo-name/ --release
+
+flutter build web --base-href /Flutter-Dice-Roll/ --release
+
+cd build/web
+git init
+git add .
+git commit -m "Deploy 1"
+git branch -M main
+git remote add origin https://github.com/joswinemmanuel/Flutter-Dice-Roll.git
+git push -u origin main
+( or if already pushed do )
+git push -u --force origin main
