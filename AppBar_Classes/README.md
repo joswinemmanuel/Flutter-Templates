@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="Demo.png"  border="1" height="600" width="270">
+  <img src="Demo.png"  border="1" height="400" width="180">
 </p>
